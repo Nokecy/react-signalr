@@ -1,10 +1,10 @@
 {
-  "author": "OpusCapita (www.opuscapita.com)",
-  "name": "@opuscapita/react-signalr",
-  "version": "2.0.0",
+  "author": "nokecy (www.admin.i7mi.com)",
+  "name": "@nokecykeke/react-signalr",
+  "version": "1.0.0",
   "private": false,
   "license": "MIT",
-  "description": "OpusCapita react signalr",
+  "description": "nokecy react signalr",
   "main": "lib/umd/react-signalr.js",
   "cjs": "lib/cjs/react-signalr.js",
   "es": "lib/es/react-signalr.js",
@@ -22,7 +22,8 @@
     "lint": "node_modules/.bin/eslint --ext .jsx,.js src/",
     "preversion": "npm run lint",
     "version": "npm run build && git add -A lib",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "publish":"npm publish --access public"
   },
   "engines": {
     "node": ">=6.10.0",
@@ -102,6 +103,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpusCapita/react-signalr.git"
+    "url": "https://github.com/nokecy/react-signalr.git"
   }
 }
